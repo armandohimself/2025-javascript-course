@@ -1,0 +1,38 @@
+# Node modules
+node_modules/
+
+# Output / build directories
+dist/
+build/
+coverage/
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.sw?
+
+# Vitest cache
+.vitest/
+
+# Optional if you're using SvelteKit, Next.js, or other frameworks
+.svelte-kit/
+.next/
+out/
+
+# Optional: If you're uploading screenshots/videos during testing
+__screenshots__/
+playwright-report/
